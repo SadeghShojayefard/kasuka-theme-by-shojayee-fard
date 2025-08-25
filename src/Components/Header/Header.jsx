@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Nav from './Nav/Nav';
 import './Header.css';
 import ButtonA from '../Share/ButtonA/ButtonA';
-import Logo from '../Share/logo/logo';
+import Logo from '../Share/Logo/Logo';
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
