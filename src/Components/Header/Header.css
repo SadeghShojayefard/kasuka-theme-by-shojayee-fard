@@ -29,19 +29,19 @@
     .nav-container {
         position: fixed;
         top: 0;
-        left: -250px;
+        right: -250px;
         width: 250px;
         height: 100vh;
         background: rgba(0, 0, 0, 0.95);
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transition: left 0.3s ease-in-out;
+        transition: right 0.3s ease-in-out;
         z-index: 999;
     }
 
     .nav-container.open {
-        left: 0;
+        right: 0;
     }
 
     nav ul {
