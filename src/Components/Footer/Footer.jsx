@@ -1,5 +1,5 @@
 import './Footer.css'
-import Logo from '../Share/logo/logo';
+import Logo from '../Share/Logo/Logo';
 
 function Footer() {
     return (
