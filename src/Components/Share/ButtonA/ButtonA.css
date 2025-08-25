@@ -1,0 +1,21 @@
+.start-Button {
+
+    height: 30px;
+    color: white;
+    background-color: #343a40;
+    text-decoration: none;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s linear;
+    padding: 5px 20px;
+}
+
+.start-Button:hover {
+    background-color: #ffd584;
+    color: black;
+}

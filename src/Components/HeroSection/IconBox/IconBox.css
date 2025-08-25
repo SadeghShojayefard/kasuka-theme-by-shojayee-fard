@@ -1,0 +1,58 @@
+.iconBox {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: border 0.3s ease;
+}
+
+.iconBox:hover {
+    border: 1px solid #ffc451;
+}
+
+.icon-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.icon-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .iconBox {
+        width: 120px;
+        height: 120px;
+    }
+
+    .icon-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .iconBox {
+        width: 100px;
+        height: 100px;
+    }
+
+    .icon-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon-text {
+        font-size: 14px;
+    }
+}

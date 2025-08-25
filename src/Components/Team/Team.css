@@ -1,0 +1,21 @@
+.container {
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-block: 50px;
+}
+
+.team-style {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+    .team-style {
+        justify-content: center;
+    }
+}

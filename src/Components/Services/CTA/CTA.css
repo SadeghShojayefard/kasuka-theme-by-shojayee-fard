@@ -1,0 +1,62 @@
+.cta-container {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Services/cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    min-height: 250px;
+    color: white;
+    text-align: center;
+}
+
+.cta-container h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.cta-container p {
+    width: 70%;
+    max-width: 900px;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* 📱 ریسپانسیو */
+@media (max-width: 768px) {
+    .cta-container {
+        padding: 20px 10px;
+        min-height: 300px;
+    }
+
+    .cta-container h2 {
+        font-size: 22px;
+    }
+
+    .cta-container p {
+        width: 90%;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta-container {
+        min-height: 350px;
+    }
+
+    .cta-container h2 {
+        font-size: 20px;
+    }
+
+    .cta-container p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+}

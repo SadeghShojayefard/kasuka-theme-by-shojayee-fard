@@ -1,0 +1,77 @@
+.Services-Item {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    height: 220px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(236, 215, 215, 0.2);
+    transition: all 0.2s linear;
+    text-align: center;
+}
+
+.Services-Item img {
+    width: 50px;
+    height: 50px;
+    background-color: #ffc451;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.Services-Item:hover {
+    border: 1px solid #ffc451;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.Services-Item a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.Services-Item h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Services-Item p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+@media (max-width: 992px) {
+    .Services-Item {
+        flex: 1 1 calc(45% - 40px);
+        max-width: calc(45% - 40px);
+    }
+}
+
+@media (max-width: 576px) {
+    .Services-Item {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 10px 0;
+        height: auto;
+        padding: 15px;
+    }
+
+    .Services-Item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Services-Item h4 {
+        font-size: 16px;
+    }
+
+    .Services-Item p {
+        font-size: 13px;
+    }
+}

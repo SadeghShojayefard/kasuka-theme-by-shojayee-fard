@@ -1,0 +1,33 @@
+.sample-item {
+    width: 30%;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.sample-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s linear;
+}
+
+.sample-item img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 992px) {
+    .sample-item {
+        width: 45%;
+        height: 180px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sample-item {
+        width: 100%;
+        height: 200px;
+        margin: 10px 0;
+    }
+}

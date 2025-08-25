@@ -1,0 +1,42 @@
+.Count-item-body {
+    width: 40%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    text-align: center;
+}
+
+.Count-item-up {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.Count-item-up img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.Count-item-up p {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Count-item-down {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .Count-item-body {
+        width: 100%;
+    }
+}

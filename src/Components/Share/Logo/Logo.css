@@ -1,0 +1,14 @@
+.logo-style {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-block: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+}

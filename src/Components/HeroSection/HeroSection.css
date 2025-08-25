@@ -1,0 +1,105 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./HeroSection/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.title {
+    text-align: center;
+    max-width: 800px;
+}
+
+.title-firstLine {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.logo-text {
+    color: #ffc451;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.title-SecondLine {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.iconSection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* ریسپانسیو */
+@media (max-width: 992px) {
+    .title-firstLine {
+        font-size: 32px;
+        margin-top: 100px;
+    }
+
+    .logo-text {
+        font-size: 32px;
+    }
+
+    .title-SecondLine {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .title-firstLine {
+        font-size: 26px;
+        margin-top: 100px;
+
+    }
+
+    .logo-text {
+        font-size: 26px;
+    }
+
+    .title-SecondLine {
+        font-size: 16px;
+    }
+
+    .iconSection {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-firstLine {
+        font-size: 22px;
+        margin-top: 100px;
+
+    }
+
+    .logo-text {
+        font-size: 22px;
+    }
+
+    .title-SecondLine {
+        font-size: 14px;
+    }
+}

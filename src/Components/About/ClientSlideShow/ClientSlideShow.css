@@ -1,0 +1,25 @@
+.about-client-img {
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+}
+
+.about-client-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .about-client-img {
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-client-img {
+        width: 100px;
+        height: 35px;
+    }
+}

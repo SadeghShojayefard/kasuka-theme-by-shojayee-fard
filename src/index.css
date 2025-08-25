@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'vazir';
+  src: url('./assets/Vazir.ttf') format('truetype');
+  src: url('./assets/Vazir.woff') format('truetype');
+
+}
+
+body {
+  font-family: 'vazir';
+  direction: rtl;
+}

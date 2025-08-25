@@ -1,0 +1,36 @@
+.container {
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 1rem;
+    margin-block: 50px;
+}
+
+.section-header {
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.section-header::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    background-color: #ffc451;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.section-header-2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0 30px 0;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

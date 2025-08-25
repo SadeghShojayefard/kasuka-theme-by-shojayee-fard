@@ -1,0 +1,22 @@
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    padding-inline: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #ffc451;
+}

@@ -1,0 +1,14 @@
+.container {
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-block: 50px;
+}
+
+.samples-style {
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+}
